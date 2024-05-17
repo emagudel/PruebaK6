@@ -27,12 +27,12 @@ https://k6.io/docs/getting-started/installation/
 -------------------------
 Siga los pasos a continuación para ejecutar la prueba de carga:
 
-1. Abra una terminal o línea de comandos.
+1. Abra una terminal o línea de comandos CMD o Command Prompt en Visual Studio Code.
 2. Navegue al directorio donde se encuentra los archivos script de pruebas.
 3. Ejecute el siguiente comando: 
-	- k6 run FindPetByID.js
-	- k6 run AddANewPetToTheStore.js
-	- k6 run UpdateAnExistingPet.js
+	- k6.exe run "performance\FindPetByID.js"
+	- k6.exe run "performance\AddANewPetToTheStore.js"
+	- k6.exe run "performance\UpdateAnExistingPet.js"
 
 
 6. Resultados de la Prueba
