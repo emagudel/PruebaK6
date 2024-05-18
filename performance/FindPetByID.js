@@ -17,7 +17,7 @@ export const options = {
 
 export default function () {
   let params;
-  group("Add a new pet to the store", function () {
+  group("Find pet by ID", function () {
     params = {
       headers: {
         'accept': 'application/xml',
