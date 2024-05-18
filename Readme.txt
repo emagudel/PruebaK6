@@ -39,6 +39,11 @@ Siga los pasos a continuación para ejecutar la prueba de carga:
 --------------------------
 Durante la ejecución de la prueba, K6 mostrará en la terminal los resultados en tiempo real, incluyendo estadísticas como el tiempo de respuesta, la tasa de errores y el número de solicitudes realizadas.
 
+Si desea un reporte WEB con K6, debe setear las variables para el dashboard, estos comandos se lanzan desde la terminal, posteriormente seria lanzar la prueba para que genere el reporte:
+set K6_WEB_DASHBOARD=true
+set K6_WEB_DASHBOARD_EXPORT=test-report.html
+
+
 7. Personalización
 ------------------
 Puede personalizar la prueba modificando los archivos que contienen script K6. Algunos ejemplos de personalización incluyen:
